@@ -1,0 +1,47 @@
+﻿@model List<RoleDetailsViewModel>
+<div class="row pt-4">
+    <div class="col-9">
+        <h3 class="text-success">All Roles</h3>
+    </div>
+    <div class="col-12 text-lg-end">
+        <a asp-controller="Role" asp-action="CreateRole" class="btn btn-outline-success">Add Role</a>
+    </div>
+    <br />
+    <br />
+    @if (Model != null && Model.Count() > 0)
+    {
+        <table class="table table-hover" width="100%">
+            <thead>
+                <tr>
+                    <th>Role Name</th>
+                    <th>Role Description</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td width="15%">@item.RoleName</td>
+                        <td width="65%">@item.RoleDescription</td>
+                        <td width="20%">
+                            <div class="w-100 btn-group" role="group">
+                                <a asp-controller="Role" asp-action="UpdateRole" asp-route-Id="@item.Id"
+                                   class="btn btn-outline-success mx-1">Edit</a>
+                                <a asp-controller="Role" asp-action="RoleListUsers" asp-route-Id="@item.Id"
+                                   class="btn btn-outline-success mx-1">Users</a>
+                                <a asp-controller="Role" asp-action="DeleteRole" asp-route-Id="@item.Id"
+                                   class="btn btn-outline-danger mx-1">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <br />
+        <p><b>Not Found Result</b></p>
+    }
+</div>

@@ -1,0 +1,29 @@
+﻿@model FileDetailsViewModel
+<form method="post" asp-action="EditFile" asp-controller="File">
+    <input type="hidden" asp-for="@Model.FileId" />
+    <div class="p-5">
+        <div class="form-group row">
+            <h3 class="text-info">Edit File</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <label asp-for="@Model.FileName"></label>
+            <input asp-for="@Model.FileName" type="text" class="form-control" />
+            <span asp-validation-for="@Model.FileName" class="text-danger"></span>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-4">
+            <label asp-for="@Model.FileDescription"></label>
+            <input asp-for="@Model.FileDescription" type="text" class="form-control" />
+            <span asp-validation-for="@Model.FileDescription" class="text-danger"></span>
+        </div>
+    </div>
+    <br />
+    <div class="w-12 btn-group" role="group">
+        <input type="submit" class="btn btn-outline-info" value="Edit File" />
+        <a asp-action="UserFilesView" class="btn btn-outline-info mx-1">Back To Files</a>
+    </div>
+</form>

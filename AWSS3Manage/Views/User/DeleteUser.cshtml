@@ -1,0 +1,27 @@
+﻿@model UserDetailsViewModel
+<form method="post" asp-controller="User" asp-action="DeleteUser">
+    <div class="p-5">
+        <input asp-for="@Model.Id" type="hidden" />
+        <div class="form-group row">
+            <h3 class="text-danger">Delete User ?</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <label asp-for="@Model.Username"></label>
+            <input asp-for="@Model.Username" type="text" readonly class="form-control" />
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-4">
+            <label asp-for="@Model.Email"></label>
+            <input asp-for="@Model.Email" type="email" readonly class="form-control" />
+        </div>
+    </div>
+    <br />
+    <div class="w-12 btn-group" role="group">
+        <input type="submit" class="btn btn-outline-danger" value="Delete" />
+        <a asp-action="ListUsers" class="btn btn-outline-danger mx-1">Back To Users</a>
+    </div>
+</form>

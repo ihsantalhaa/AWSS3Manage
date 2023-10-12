@@ -1,0 +1,49 @@
+﻿@model List<UserDetailsViewModel>
+<div class="row pt-4">
+    <div class="col-9">
+        <h3 class="text-primary">All Users</h3>
+    </div>
+    <br />
+    <br />
+    @if (Model != null && Model.Count() > 0)
+    {
+        <table class="table table-hover" width="100%">
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>User Description</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    @if (item.Username != "root")
+                    {
+                        <tr>
+                            <td width="10%">@item.Username</td>
+                            <td width="15%">@item.Email</td>
+                            <td width="55%">@item.UserDescription</td>
+                            <td width="20%">
+                                <div class="w-100 btn-group" role="group">
+                                    <a asp-controller="User" asp-action="UpdateUser" asp-route-Id="@item.Id"
+                                       class="btn btn-outline-primary mx-1">Edit</a>
+                                    <a asp-controller="User" asp-action="UserListRole" asp-route-Id="@item.Id"
+                                       class="btn btn-outline-primary mx-1">Roles</a>
+                                    <a asp-controller="User" asp-action="DeleteUser" asp-route-Id="@item.Id"
+                                       class="btn btn-outline-danger mx-1">Delete</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <br />
+        <p><b>Not Found Result</b></p>
+    }
+</div>

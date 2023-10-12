@@ -1,0 +1,25 @@
+﻿<form enctype="multipart/form-data" method="post" asp-controller="File" asp-action="UploadFile">
+    <div class="p-5">
+        <div class="form-group row">
+            <h3 class="text-info">Upload File</h3>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="file">Select File:</label>
+        <input type="file" name="file" class="form-control" required />
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-4">
+            <label>File Description</label>
+            <input type="text" name="txtFileDescription" class="form-control" />
+        </div>
+    </div>
+    <br />
+    <div class="w-12 btn-group" role="group">
+        <input type="submit" value="Upload" class="btn btn-outline-info" />
+        <a asp-action="UserFilesView" class="btn btn-outline-info mx-1">Back To Files</a>
+    </div>
+    <div class="form-group">
+    </div>
+</form>

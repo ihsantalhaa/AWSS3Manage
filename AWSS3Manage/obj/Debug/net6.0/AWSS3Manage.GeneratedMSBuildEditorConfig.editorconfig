@@ -1,0 +1,113 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AWSS3Manage
+build_property.RootNamespace = AWSS3Manage
+build_property.ProjectDir = C:\Users\crawler\Desktop\VS_Projects\AWSS3Manage\AWSS3Manage\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\crawler\Desktop\VS_Projects\AWSS3Manage\AWSS3Manage
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/File/DeleteFile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZVxEZWxldGVGaWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/File/EditFile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZVxFZGl0RmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/File/UploadFile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZVxVcGxvYWRGaWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/File/UserFilesView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZVxVc2VyRmlsZXNWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/Home/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/Role/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGVSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/Role/DeleteRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxEZWxldGVSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/Role/ListRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxMaXN0Um9sZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/Role/RoleAddUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxSb2xlQWRkVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/Role/RoleListUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxSb2xlTGlzdFVzZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/Role/UpdateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxVcGRhdGVSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/User/DeleteUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/User/ListUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMaXN0VXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/User/UpdatePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGVQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/User/UpdateProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGVQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/User/UpdateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/User/UserListRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyTGlzdFJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crawler/Desktop/VS_Projects/AWSS3Manage/AWSS3Manage/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jybjuli784

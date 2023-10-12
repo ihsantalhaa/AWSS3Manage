@@ -1,0 +1,48 @@
+﻿@model List<RoleUserViewModel>
+@ViewBag.Values
+<div class="row pt-4">
+    <div class="col-9">
+        <h3 class="text-success">@ViewBag.Role</h3>
+    </div>
+    <div class="col-12 text-lg-end">
+        <a asp-controller="Role" asp-action="RoleAddUser" asp-route-Id="@ViewData["RoleId"]" class="btn btn-outline-success">Add User To Role</a>
+    </div>
+    <br />
+    <br />
+    @if (Model != null && Model.Count() > 0)
+    {
+        <table class="table table-hover" width="100%">
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>User Description</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td width="15%">@item.UserName</td>
+                        <td width="80%">@item.UserDescription</td>
+                        <td width="5%">
+                            <div class="w-100 btn-group" role="group">
+                                <form method="post" asp-action="RoleDeleteUser" asp-controller="Role">
+                                    <input type="hidden" name="RoleId" value="@item.RoleId">
+                                    <input type="hidden" name="UserId" value="@item.UserId">
+                                    <input type="hidden" name="UserName" value="@item.UserName">
+                                    <button type="submit" name="action" class="btn btn-outline-danger">Delete</button>
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <br />
+        <p><b>Not Found Result</b></p>
+    }
+</div>

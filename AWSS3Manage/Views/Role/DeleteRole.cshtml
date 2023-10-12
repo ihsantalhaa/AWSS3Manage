@@ -1,0 +1,27 @@
+﻿@model RoleDetailsViewModel
+<form method="post" asp-controller="Role" asp-action="Delete">
+    <div class="p-5">
+        <input asp-for="@Model.Id" type="hidden" />
+        <div class="form-group row">
+            <h3 class="text-danger">Delete Role ?</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <label asp-for="@Model.RoleName"></label>
+            <input asp-for="@Model.RoleName" type="text" readonly class="form-control" />
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-4">
+            <label asp-for="@Model.RoleDescription"></label>
+            <input asp-for="@Model.RoleDescription" type="text" readonly class="form-control" />
+        </div>
+    </div>
+    <br />
+    <div class="w-12 btn-group" role="group">
+        <input type="submit" class="btn btn-outline-danger" value="Delete" />
+        <a asp-action="ListRoles" class="btn btn-outline-danger mx-1">Back To Role</a>
+    </div>
+</form>

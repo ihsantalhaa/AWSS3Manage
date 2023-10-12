@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AWSS3Manage.props" />
+</Project>
